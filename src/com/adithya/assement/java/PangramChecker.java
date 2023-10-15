@@ -3,7 +3,7 @@ package com.adithya.assement.java;
 import java.util.HashSet;
 
 public class PangramChecker {
-    public static boolean isPangram(String sentence) {
+    public static boolean isPangram(String sentence){
         sentence = sentence.toLowerCase();
         HashSet<Character> letters = new HashSet<>();
         for (int i = 0; i < sentence.length(); i++) {
